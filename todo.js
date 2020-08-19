@@ -24,6 +24,9 @@ function addTask() {
     // add div to the page
     document.body.append(task_div);
 
+    // clear input
+    task_input.value = '';
+
 }
 
 function removeTask(btn) {
